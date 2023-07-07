@@ -1,0 +1,17 @@
+body{
+	 font-size: 14px;
+    background:#0cebeb;
+    background: -webkit-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: -o-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: -moz-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(right, #29ffc6, #20e3b2, #0cebeb);
+}
+.update{
+	margin-top: 40px;
+	width: 550px;
+	height: auto;
+	padding: 30px 40px;
+	background-color:#fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #000;
+}

@@ -1,0 +1,124 @@
+
+body{
+    font-size: 14px;
+    background:#0cebeb;
+    background: -webkit-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: -o-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: -moz-linear-gradient(right,#29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(right, #29ffc6, #20e3b2, #0cebeb);
+}
+nav{
+    position: fixed;
+}
+.filter-container{
+    font-family: sans-serif;
+    width: 100%;
+    color: floralwhite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.filter-title{
+  font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+.filter-check{
+  margin-left: 30px;
+}
+.search-filter{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.search-filter .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  font-size: 16px;
+}
+.search-filter .form-control:focus {
+  z-index: 2;
+  border-color: #093637;
+  box-shadow: 0 0 0 0.2rem rgba(9,54,55,);
+}
+.menu-list{
+    height: 100%;
+    margin-top: 10px;
+}
+.btn-custom{
+    background: #D3D3D3;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 30px;
+    max-height: 30px;
+}
+.btn-custom:focus,
+.btn-custom:hover{
+  background-color:  #0cebeb;
+  color: #000000;
+}
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #0cebeb;
+  border-color: #0cebeb;
+  color: #000000;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(9,54,55,.25);
+}
+.order-menu{
+  font-family: sans-serif;
+  width: 100%;
+  color: floralwhite;
+  margin-top: 20px;
+  font-size: 15px;;
+  padding: 10px;
+  background-color: darkslategrey;
+}
+.order-menu h4{
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  height: 100%;
+	margin: 10px;
+}
+hr{
+  border-top: 2px solid aqua;
+}
+.register{
+  width: 500px;
+  margin: auto;
+}
+.pagination{
+	margin: 0px !important;
+}
+
+.but {
+  font-family: sans-serif;
+    width: 100%;
+    color: floralwhite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+.but:hover {
+  background-color: #57b846;
+  color: white;
+}
+.previous {
+  background-color: #4dae3c;
+  color: white;
+}
+
+.round {
+  border-radius: 5%;
+}
+.right{
+	float:right !important;
+}
